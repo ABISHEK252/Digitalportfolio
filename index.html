@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Digital Portfolio
+        </title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                margin:0;
+                padding:0;
+                background-color:beige;
+            }
+            header{
+                background-color:black;
+                color:beige;
+                text-align:center;
+                padding: 2rem;
+                position: relative;
+            }
+            .header-content h1{
+                text-align: 2.1rem;
+            }
+            .profile-picture{
+                width:100px;
+                height:100px;
+                border-radius:75%;
+                object-fit: cover;
+                position:absolute;
+                top:75px;
+                left:75px;
+            }
+            nav{
+                background-color:rgb(11, 12, 12);
+                color:white;
+                text-align:center;
+            }
+            nav ul{
+                list-style-type:circle;
+                color:white;
+                padding:0;
+            }
+            nav li{
+                display:inline;
+                margin: 20px;
+            }
+            nav ul li a{
+                text-decoration:none;
+                color:white;
+            }
+            .section-content{
+                background-color: white;
+                padding:2rem;
+                margin:1rem;
+                border-radius:20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            .download-button{
+                background-color:black;
+                color:white;
+                padding:0.5rem 1rem;
+                text-decoration:none;
+                border-radius:20px;
+                display:inline-block;
+                margin-top:10px;
+            }
+            .download-button:hover{
+                background-color:brown;
+            }
+            footer{
+                text-align:center;
+                padding:1rem 0;
+                background-color: darkgrey;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <img src="abishek.jpeg" alt="Profile Picture" class="profile-picture">
+                <h1>ABISHEK M</h1>
+                <p>I want to a web Developer</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <div class="section-content">
+                <h1>About Me</h1>
+                <p>I am an CS student who has passion for studying!</p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="section-content">
+                <h1>B.SC</h1>
+                    <p>
+                    BSC-COMPUTER SCIENCE
+                </p>
+                
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-content">
+                <h1>Courses</h1>
+                <p>
+                    <ul>
+                        <li>python</li>
+                        <li>html</li>
+                        <li>javascript</li>
+                        <li>css</li>
+
+                    </ul>
+                </p>
+            </div>
+        </section>
+        <section id="resume">
+            <center>
+                <div class="section-content">
+                    <h1>Resume</h1>
+                    <a href="resume.docx" class="download-button">Download CV</a>
+                </div>
+            </center>
+
+        </section>
+        <footer>
+            <p>&copy; 2023 ABISHEK M</p>
+        </footer>
+    </body>
+</html>
